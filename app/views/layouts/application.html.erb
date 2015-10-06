@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html style="background: -moz-linear-gradient(top,  <%= @resources.first.colors.first %> 0%, <%= @resources.first.colors.second %> 68%, <%= @resources.first.colors.third %> 87%, <%= @resources.first.colors.last %> 100%); /* FF3.6+ */
+  background: -webkit-linear-gradient(top,  <%= @resources.first.colors.first %> 0%,<%= @resources.first.colors.second %> 68%,<%= @resources.first.colors.third %> 87%,<%= @resources.first.colors.last %> 100%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom,  <%= @resources.first.colors.first %> 0%,<%= @resources.first.colors.second %> 68%,<%= @resources.first.colors.third %> 87%,<%= @resources.first.colors.last %> 100%); /* W3C */">
 <head>
   <title>LoSky</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>

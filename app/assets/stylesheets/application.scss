@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body { background: image-url("halftone.png");}
+
+#main {
+  height: 100%;
+}
+
+ul {
+  display: block;
+  width: 100%;
+  max-width: 660px;
+  padding: 25px 10px;
+  margin: 0 auto;
+  background-color: #f9fbfa;
+  height: 100%;
+  box-shadow: 0 0 10px 0px rgba(0,0,0,0.15)
+}
+
+li { list-style: none }
+
+img { width: 100%; }
