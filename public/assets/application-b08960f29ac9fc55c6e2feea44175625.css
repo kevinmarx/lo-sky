@@ -1,0 +1,59 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 17, /Users/kmarx/workspace/km/lo-sky/app/assets/stylesheets/application.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 21, /Users/kmarx/workspace/km/lo-sky/app/assets/stylesheets/application.scss */
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 27, /Users/kmarx/workspace/km/lo-sky/app/assets/stylesheets/application.scss */
+body {
+  background: url(/assets/halftone.png);
+  overflow: auto;
+}
+
+/* line 32, /Users/kmarx/workspace/km/lo-sky/app/assets/stylesheets/application.scss */
+#main {
+  height: 100%;
+}
+
+/* line 36, /Users/kmarx/workspace/km/lo-sky/app/assets/stylesheets/application.scss */
+ul {
+  display: block;
+  width: 100%;
+  max-width: 660px;
+  padding: 25px 10px;
+  margin: 0 auto;
+  background-color: #f9fbfa;
+  height: 100%;
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* line 47, /Users/kmarx/workspace/km/lo-sky/app/assets/stylesheets/application.scss */
+li {
+  list-style: none;
+}
+
+/* line 49, /Users/kmarx/workspace/km/lo-sky/app/assets/stylesheets/application.scss */
+img {
+  width: 100%;
+}
