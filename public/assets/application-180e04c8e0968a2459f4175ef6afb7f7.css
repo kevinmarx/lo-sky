@@ -10,13 +10,15 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
+
+
  */
+/* line 17, /Users/kmarx/workspace/km/lo-sky/app/assets/stylesheets/application.scss */
 * {
   box-sizing: border-box;
 }
 
+/* line 21, /Users/kmarx/workspace/km/lo-sky/app/assets/stylesheets/application.scss */
 html, body {
   height: 100%;
   padding: 0;
@@ -24,14 +26,17 @@ html, body {
   overflow: auto;
 }
 
+/* line 28, /Users/kmarx/workspace/km/lo-sky/app/assets/stylesheets/application.scss */
 body {
-  background: image-url("halftone.png");
+  background: url(/assets/halftone.png);
 }
 
+/* line 32, /Users/kmarx/workspace/km/lo-sky/app/assets/stylesheets/application.scss */
 #main {
   height: 100%;
 }
 
+/* line 36, /Users/kmarx/workspace/km/lo-sky/app/assets/stylesheets/application.scss */
 ul {
   display: block;
   width: 100%;
@@ -40,9 +45,15 @@ ul {
   margin: 0 auto;
   background-color: #f9fbfa;
   min-height: 100%;
-  box-shadow: 0 0 10px 0px rgba(0,0,0,0.15)
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.15);
 }
 
-li { list-style: none }
+/* line 47, /Users/kmarx/workspace/km/lo-sky/app/assets/stylesheets/application.scss */
+li {
+  list-style: none;
+}
 
-img { width: 100%; }
+/* line 49, /Users/kmarx/workspace/km/lo-sky/app/assets/stylesheets/application.scss */
+img {
+  width: 100%;
+}
