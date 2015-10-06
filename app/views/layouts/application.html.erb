@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html style="background: -moz-linear-gradient(top,  <%= @resources.first.colors.first %> 0%, <%= @resources.first.colors.second %> 75%, <%= @resources.first.colors.third %> 87%, <%= @resources.first.colors.last %> 100%); /* FF3.6+ */
-  background: -webkit-linear-gradient(top,  <%= @resources.first.colors.first %> 0%,<%= @resources.first.colors.second %> 75%,<%= @resources.first.colors.third %> 87%,<%= @resources.first.colors.last %> 100%); /* Chrome10+,Safari5.1+ */
-  background: linear-gradient(to bottom,  <%= @resources.first.colors.first %> 0%,<%= @resources.first.colors.second %> 75%,<%= @resources.first.colors.third %> 87%,<%= @resources.first.colors.last %> 100%); /* W3C */">
+<html
+  style="background: -moz-radial-gradient(center, ellipse bottom,  <%= @resource.first.colors.first %> 0%, <%= @resource.first.colors.second %> 20%, <%= @resource.first.colors.third %> 42%, <%= @resource.first.colors.last %> 100%);
+  background: -webkit-radial-gradient(center, ellipse bottom,  <%= @resource.first.colors.first %> 0%, <%= @resource.first.colors.second %> 20%,<%= @resource.first.colors.third %> 42%,<%= @resource.first.colors.last %> 100%);
+  background: radial-gradient(ellipse at bottom,  <%= @resource.first.colors.first %> 0%, <%= @resource.first.colors.second %> 20%,<%= @resource.first.colors.third %> 42%,#<%= @resource.first.colors.last %>100%);"
+>
 <head>
   <title>Lo-Sky</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
