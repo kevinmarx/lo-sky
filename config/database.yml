@@ -78,8 +78,8 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production:
-  <<: *default
-  database: lo_sky_production
-  username: lo_sky
-  password: <%= ENV['LO_SKY_DATABASE_PASSWORD'] %>
+# production:
+#   <<: *default
+#   database: lo_sky_production
+#   username: lo_sky
+#   password: <%= ENV['LO_SKY_DATABASE_PASSWORD'] %>
