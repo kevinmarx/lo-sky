@@ -23,7 +23,10 @@ html, body {
   margin: 0;
 }
 
-body { background: image-url("halftone.png");}
+body {
+  background: image-url("halftone.png");
+  overflow: auto;
+}
 
 #main {
   height: 100%;
