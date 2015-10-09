@@ -7,6 +7,6 @@ class SkiesController < ApplicationController
   private
 
   def find_resources
-    @resources ||= Sky.limit(50).order(created_at: :desc)
+    @resources ||= Sky.order(created_at: :desc)
   end
 end
